@@ -10,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #000000;
+  background-color: #994444;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,4 +31,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Button { 
+  position: relative; 
+  width: 100%; /* for IE 6 */
+}
+
+h2 span { 
+  position: absolute; 
+  top: 7px; 
+  left: 0; 
+  width: 100%; 
+  color: rgb(0, 0, 0); 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  padding: 10px; 
 }
