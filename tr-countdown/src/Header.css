@@ -1,24 +1,25 @@
 .Header{
     background-color: black;
-    height: 60px;
-    overflow:hidden
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .Logo{
-    height: 30px;
-    position: absolute;
-    top: 20px;
+    padding: 20px 20px;
 }
 .LoginLogo{
-    position: absolute;
     float: right;
     margin: -40px -300px
 }
 
-.Join{
-    float: absolute;
-    margin: 20px 100px
+.JoinLogin{
+    font-size: 20px;
+    position: relative;
+    top: 23%;
+    left: -20%;
+    padding: 15px;
 }
-.Login{
-    margin: -44px 0px
+.JoinLogin a{
+    color: black;
+    text-transform: uppercase;
 }
