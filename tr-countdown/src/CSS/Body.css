@@ -2,6 +2,7 @@
     text-align: center;
     background-color: black;
     color: white;
+    padding-top: 200px;
   }
   
 .MainLogo {
@@ -21,6 +22,10 @@
 .InteractiveButton{
     max-width: 80%;
     height: auto;
+}
+
+.Social{
+    max-width: 90px;
 }
 
 .ButtonText{
