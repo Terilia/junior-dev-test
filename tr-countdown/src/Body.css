@@ -1,0 +1,40 @@
+.Body {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+.MainLogo {
+    height: 8vmax;
+}
+.Bar {
+   width: 500px;
+}
+
+.Reveal{
+    color: #c23e26;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.InteractiveButton{
+    max-width: 80%;
+    height: auto;
+}
+
+.ButtonText{
+    max-width: 80%;
+    height: auto;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.WatchTeaser{
+    margin-bottom: 200px;
+}

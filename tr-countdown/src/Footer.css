@@ -1,0 +1,32 @@
+.ImageContainer{
+    padding: 20px 200px;
+}
+
+.LegalImage:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+.LegalImage{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 5px;
+}
+
+.LegalImage img{
+    max-width: 80%;
+}
+
+.LegalText{
+    text-align: center;
+    font-size: .65em;
+    color: #909090;
+}
+
+.BottomNav{
+    color: #909090;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    padding: 5px;
+}

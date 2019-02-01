@@ -1,0 +1,22 @@
+.Countdown{
+    margin: 10px auto;
+    padding-bottom: 0px;
+    width: 450px;
+}
+  .DoubleColon{
+    margin: 15px auto;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .Countdown-col-element{
+    display: inherit;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Numbers{
+      font-size: 60px;
+  }

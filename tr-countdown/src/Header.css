@@ -1,0 +1,24 @@
+.Header{
+    background-color: black;
+    height: 60px;
+    overflow:hidden
+}
+
+.Logo{
+    height: 30px;
+    position: absolute;
+    top: 20px;
+}
+.LoginLogo{
+    position: absolute;
+    float: right;
+    margin: -40px -300px
+}
+
+.Join{
+    float: absolute;
+    margin: 20px 100px
+}
+.Login{
+    margin: -44px 0px
+}
