@@ -74,44 +74,44 @@ class Countdown extends Component {
 
   render() {
     return (
-      <Container className="Countdown" fluid>
-        <Row >
-            <Col>
+      <Container>
+      <Row className="justify-content-center TeaserButton" fluid>
+                <Col xs={6} md="auto">
+                  <span className="Numbers">
+                      {this.addLeadingZeros(this.state.days)}
+                  </span>
+                  <span className="Countdown-col-element">
+                    {this.state.days === 1 ? 'DAY' : 'DAYS'}
+                  </span>
+                </Col>
+                <Col md="auto" className="DoubleColon">:</Col>
+                <Col xs={6} md="auto">
                 <span className="Numbers">
-                    {this.addLeadingZeros(this.state.days)}
-                </span>
-                <span className="Countdown-col-element">
-                        {this.state.days === 1 ? 'DAY' : 'DAYS'}
-                </span>
-            </Col>
-            <span className="DoubleColon">:</span>
-            <Col xs>
-            <span className="Numbers">
-                {this.addLeadingZeros(this.state.hours)}
-                </span>
-                <span className="Countdown-col-element">
-                        HOURS
-                </span>
-            </Col>
-            <span className="DoubleColon">:</span>
-            <Col xs>
-            <span className="Numbers">
-                {this.addLeadingZeros(this.state.min)}
-                </span>
-                <span className="Countdown-col-element">
-                        MINS
-                </span>
-            </Col>
-            <span className="DoubleColon">:</span>
-            <Col xs>
-            <span className="Numbers">
-                {this.addLeadingZeros(this.state.sec)}
-                </span>
-                <span className="Countdown-col-element">
-                        SECS
-                </span>
-            </Col>
-        </Row>
+                  {this.addLeadingZeros(this.state.hours)}
+                  </span>
+                  <span className="Countdown-col-element">
+                  {this.state.days === 1 ? 'HOUR' : 'HOURS'}
+                  </span>
+                </Col>
+                <Col md="auto" className="DoubleColon">:</Col>
+                <Col xs={6} md="auto">
+                  <span className="Numbers">
+                    {this.addLeadingZeros(this.state.min)}
+                  </span>
+                  <span className="Countdown-col-element">
+                  {this.state.days === 1 ? 'MIN' : 'MINS'}
+                  </span>
+                </Col>
+                <Col md="auto" className="DoubleColon">:</Col>
+                <Col xs={6} md="auto">
+                  <span className="Numbers">
+                    {this.addLeadingZeros(this.state.sec)}
+                  </span>
+                  <span className="Countdown-col-element">
+                  {this.state.sec === 1 ? 'SEC' : 'SECS'}
+                  </span>
+                </Col>
+            </Row>      
       </Container>
     );
   }

@@ -13,7 +13,7 @@ class Header extends Component {
       return (
         <Container>
           <Navbar collapseOnSelect expand="lg" fixed="top" bg="black" variant="dark" className="Header">
-            <Navbar.Brand><Image src={LogoSquare}/></Navbar.Brand>
+            <Navbar.Brand><a href="http://square-enix-games.com"><Image className="BrandLogo" src={LogoSquare}/></a></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
              <Navbar.Collapse id="responsive-navbar-nav" className="JoinLoginContainer">
               <Nav>
