@@ -34,13 +34,13 @@ class Footer extends Component {
                 </Row>
                 <Row className="justify-content-md-center LinkList">
                         <Col md="auto" className="BottomNav"><a href="http://square-enix-games.com">Cookie Policy</a></Col>
-                        <Col md="auto" className="BottomNav">●</Col>
+                        <Col md="auto" className="BottomNav colon">●</Col>
                         <Col md="auto" className="BottomNav"><a href="http://square-enix-games.com">Terms of Use</a></Col>
-                        <Col md="auto" className="BottomNav">●</Col>
+                        <Col md="auto" className="BottomNav colon">●</Col>
                         <Col md="auto" className="BottomNav"><a href="http://square-enix-games.com">Privacy Policy</a></Col>
-                        <Col md="auto" className="BottomNav">●</Col>
+                        <Col md="auto" className="BottomNav colon">●</Col>
                         <Col md="auto" className="BottomNav"><a href="http://square-enix-games.com">Support</a></Col>
-                        <Col md="auto" className="BottomNav">●</Col>
+                        <Col md="auto" className="BottomNav colon">●</Col>
                         <Col md="auto" className="BottomNav"><a href="http://square-enix-games.com">Material Usage</a></Col>
                 </Row>
         </Container>

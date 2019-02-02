@@ -9,8 +9,14 @@
 .MainLogo {
     height: 7vmax;
 }
+
+.MainLogoWrapper {
+    padding-bottom: 150px;
+}
+
 .Bar {
-   width: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
 .Reveal{
@@ -48,11 +54,12 @@
 
 .ButtonText{
     height: auto;
-    width: 300px;
+    width: 350px;
     font-size: 22pt;
     font-weight: bold;
     color: black;
     position: absolute;
+    text-transform: uppercase;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

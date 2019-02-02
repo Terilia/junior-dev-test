@@ -21,6 +21,7 @@
     padding: 30px !important;
     right: -400px;
     height: 80px;
+    width: 120px;
     color: black !important;
     text-transform: uppercase;
     background-color: white !important;
@@ -34,7 +35,8 @@
         display:none;
     }
     .JoinLoginText{
-        right: 0px;;
+        right: 0px;
+        width: 100%;
     }
     .BrandLogo{
         width: 200px;

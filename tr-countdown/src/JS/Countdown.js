@@ -75,7 +75,7 @@ class Countdown extends Component {
   render() {
     return (
       <Container>
-      <Row className="justify-content-center TeaserButton" fluid>
+      <Row className="justify-content-center" fluid>
                 <Col xs={6} md="auto">
                   <span className="Numbers">
                       {this.addLeadingZeros(this.state.days)}
