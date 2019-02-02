@@ -2,7 +2,8 @@
     text-align: center;
     background-color: black;
     color: white;
-    padding-top: 200px;
+    padding-top: 150px;
+    overflow: hidden;
   }
   
 .MainLogo {
@@ -24,30 +25,35 @@
     height: auto;
 }
 
+.TeaserButton{
+    padding-bottom: 200px;
+}
+
 .Social{
     max-width: 90px;
 }
 
 .Buttons{
     padding: 10px;
+    transition: all .2s ease-in-out;
 }
+.Buttons:hover{
+    transform: scale(1.1)
+}
+
 
 .SocialButtonContainer{
     padding: 50px;
 }
 
 .ButtonText{
-    max-width: 80%;
     height: auto;
-    font-size: 4vmin;
+    width: 300px;
+    font-size: 22pt;
     font-weight: bold;
     color: black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.WatchTeaser{
-    margin-bottom: 200px;
 }

@@ -36,6 +36,9 @@
     letter-spacing: 2px;
     max-width: 160px;
 }
+.BottomNav a{
+    color: #909090;
+}
 
 .LinkList{
     padding: 20px;

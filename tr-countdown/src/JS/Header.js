@@ -17,8 +17,8 @@ class Header extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
              <Navbar.Collapse id="responsive-navbar-nav" className="JoinLoginContainer">
               <Nav>
-                <Button className="JoinLoginText">Join</Button>
-                <Button className="JoinLoginText">Log In</Button>
+                <Button href="http://square-enix-games.com" className="JoinLoginText">Join</Button>
+                <Button href="http://square-enix-games.com" className="JoinLoginText">Log In</Button>
                 <Image className="LoginBackground" src={LoginBackground}/>
               </Nav>
             </Navbar.Collapse>

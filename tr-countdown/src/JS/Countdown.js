@@ -73,23 +73,21 @@ class Countdown extends Component {
   }
 
   render() {
-    const countDown = this.state;
-
     return (
-      <Container className="Countdown">
+      <Container className="Countdown" fluid>
         <Row >
             <Col>
                 <span className="Numbers">
-                    {this.addLeadingZeros(countDown.days)}
+                    {this.addLeadingZeros(this.state.days)}
                 </span>
                 <span className="Countdown-col-element">
-                        {countDown.days === 1 ? 'DAY' : 'DAYS'}
+                        {this.state.days === 1 ? 'DAY' : 'DAYS'}
                 </span>
             </Col>
             <span className="DoubleColon">:</span>
             <Col xs>
             <span className="Numbers">
-                {this.addLeadingZeros(countDown.hours)}
+                {this.addLeadingZeros(this.state.hours)}
                 </span>
                 <span className="Countdown-col-element">
                         HOURS
@@ -98,7 +96,7 @@ class Countdown extends Component {
             <span className="DoubleColon">:</span>
             <Col xs>
             <span className="Numbers">
-                {this.addLeadingZeros(countDown.min)}
+                {this.addLeadingZeros(this.state.min)}
                 </span>
                 <span className="Countdown-col-element">
                         MINS
@@ -107,7 +105,7 @@ class Countdown extends Component {
             <span className="DoubleColon">:</span>
             <Col xs>
             <span className="Numbers">
-                {this.addLeadingZeros(countDown.sec)}
+                {this.addLeadingZeros(this.state.sec)}
                 </span>
                 <span className="Countdown-col-element">
                         SECS
