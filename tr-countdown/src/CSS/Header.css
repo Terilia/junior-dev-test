@@ -1,18 +1,39 @@
 .Header{
+    height: 86px;
     background-color: black;
 }
 
-.Logo{
-}
-.LoginBackground{
-    float: right;
-    margin: -340px;
+.JoinLoginContainer{
+    justify-content: flex-end;
+    color: black !important;
+    display: inline-block;
 }
 
-.JoinLogin{
-    left: 500px;
-    font-size: 20px;
-    padding: 15px;
+.LoginBackground{
+    position: relative;
+    top: -5px;
+    right: -80px;
+    z-index: -1;
+}
+
+.JoinLoginText{
+    position: relative;
+    padding: 30px !important;
+    right: -400px;
+    height: 80px;
     color: black !important;
-    text-transform: uppercase
+    text-transform: uppercase;
+    background-color: white !important;
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media (max-width:991px){
+    .LoginBackground{
+        display:none;
+    }
+    .JoinLoginText{
+        right: 0px;;
+    }
 }

@@ -28,10 +28,18 @@
     max-width: 90px;
 }
 
+.Buttons{
+    padding: 10px;
+}
+
+.SocialButtonContainer{
+    padding: 50px;
+}
+
 .ButtonText{
     max-width: 80%;
     height: auto;
-    font-size: 28px;
+    font-size: 4vmin;
     font-weight: bold;
     color: black;
     position: absolute;

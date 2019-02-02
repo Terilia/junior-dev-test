@@ -23,14 +23,10 @@ class Countdown extends Component {
     }, 1000);
   }
 
-  componentWillUnmount() {
-    this.stop();
-  }
-
   calculateCountdown(endDate) {
     let diff = (Date.parse(new Date(endDate)) - Date.parse(new Date())) / 1000;
 
-    if (diff <= 0) return false;
+    if (diff < 0) return false;
 
     const timeLeft = {
       years: 0,
@@ -61,8 +57,11 @@ class Countdown extends Component {
     return timeLeft;
   }
 
-  stop() {
-    clearInterval(this.interval);
+  stop() { //If time done, refresh every second.
+    setTimeout(() => {
+      window.location.reload();
+    }, 1000);
+    
   }
 
   addLeadingZeros(value) {
