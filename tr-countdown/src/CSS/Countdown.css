@@ -1,27 +1,23 @@
-.Countdown{
-    margin: 10px auto;
-    padding-bottom: 0px;
-}
-  .DoubleColon{
-    font-size: 80px;
-    font-weight: bold;
+  .double-colon{
+	font-size: 80px;
+	font-weight: bold;
   }
 
-  .Countdown-col-element{
-    display: inherit;
-    margin: 0 5px;
-    letter-spacing: 4px;
+  .countdown-element{
+	display: inherit;
+	margin: 0 5px;
+	letter-spacing: 4px;
   }
 
-  .Numbers{
-      font-size: 80px;
+  .numbers{
+	  font-size: 80px;
   }
 
   @media (max-width:991px){
-    .DoubleColon{
-        display:none;
-    }
-    .Numbers{
-      font-size: 40px;
-    }
+	.double-colon{
+		display:none;
+	}
+	.numbers{
+	  font-size: 40px;
+	}
 }

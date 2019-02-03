@@ -1,51 +1,47 @@
-.ImageContainer{
-    padding: 20px 200px;
+.legal-container{
+	justify-content: center;
 }
 
-.LegalContainer{
-    justify-content: center;
-}
-
-.LegalImage:before {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
+.legal-image:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
   }
-.LegalImage{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 3px 5px;
+.legal-image{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px 5px;
 }
 
-.LegalImage img{
-    max-width: 80%;
+.legal-image img{
+	max-width: 80%;
 }
 
-.LegalText{
-    text-align: center;
-    font-size: .65em;
-    color: #909090;
+.legal-text{
+	text-align: center;
+	font-size: .65em;
+	color: #909090;
 }
 
-.BottomNav{
-    padding-left: 2px;
-    padding-right: 2px;
-    color: #909090;
-    font-size: 10pt;
-    letter-spacing: 2px;
-    max-width: 160px;
+.bottom-nav{
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #909090;
+	font-size: 10pt;
+	letter-spacing: 2px;
+	max-width: 160px;
 }
-.BottomNav a{
-    color: #909090;
+.bottom-nav a{
+	color: #909090;
 }
 
-.LinkList{
-    padding: 20px;
+.link-list{
+	padding: 20px;
 }
 
 @media (max-width:991px){
-    .colon{
-        display:none;
-    }
+	.colon{
+		display:none;
+	}
 }

@@ -1,66 +1,61 @@
-.Body {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding-top: 150px;
-    overflow: hidden;
+.body {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding-top: 150px;
+	overflow: hidden;
   }
   
-.MainLogo {
-    height: 7vmax;
+.main-logo-wrapper {
+	padding-bottom: 150px;
 }
 
-.MainLogoWrapper {
-    padding-bottom: 150px;
+.main-logo {
+	height: 7vmax;
 }
 
-.Bar {
-    max-width: 100%;
-    height: auto;
+.bar {
+	max-width: 60%;
+	height: auto;
 }
 
-.Reveal{
-    color: #c23e26;
-    font-size: 20px;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
+.reveal{
+	color: #c23e26;
+	font-size: 20px;
+	letter-spacing: 5px;
+	margin-bottom: 20px;
 }
 
-.InteractiveButton{
-    max-width: 80%;
-    height: auto;
+.teaser-button{
+	padding-bottom: 200px;
 }
 
-.TeaserButton{
-    padding-bottom: 200px;
+.social{
+	max-width: 90px;
 }
 
-.Social{
-    max-width: 90px;
+.buttons{
+	padding: 10px;
+	transition: all .2s ease-in-out;
 }
-
-.Buttons{
-    padding: 10px;
-    transition: all .2s ease-in-out;
-}
-.Buttons:hover{
-    transform: scale(1.1)
+.buttons:hover{
+	transform: scale(1.1)
 }
 
 
-.SocialButtonContainer{
-    padding: 50px;
+.social-button-wrapper{
+	padding: 50px;
 }
 
-.ButtonText{
-    height: auto;
-    width: 350px;
-    font-size: 22pt;
-    font-weight: bold;
-    color: black;
-    position: absolute;
-    text-transform: uppercase;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.button-text{
+	height: auto;
+	width: 350px;
+	font-size: 22pt;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	text-transform: uppercase;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }

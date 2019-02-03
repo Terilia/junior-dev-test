@@ -9,24 +9,24 @@ import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 
 class Header extends Component {
-    render() {
-      return (
-        <Container>
-          <Navbar collapseOnSelect expand="lg" fixed="top" bg="black" variant="dark" className="Header">
-            <Navbar.Brand><a href="http://square-enix-games.com"><Image className="BrandLogo" src={LogoSquare}/></a></Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-             <Navbar.Collapse id="responsive-navbar-nav" className="JoinLoginContainer">
-              <Nav>
-                <Button href="http://square-enix-games.com" className="JoinLoginText">Join</Button>
-                <Button href="http://square-enix-games.com" className="JoinLoginText">Log In</Button>
-                <Image className="LoginBackground" src={LoginBackground}/>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
-        </Container>
-      );
-    }
-  }
-  
-  export default Header;
-  
+		render() {
+			return (
+				<Container>
+					<Navbar collapseOnSelect expand="lg" fixed="top" bg="black" variant="dark" className="header">
+						<Navbar.Brand><a href="http://square-enix-games.com"><Image className="brand-logo" src={LogoSquare}/></a></Navbar.Brand>
+						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+						 <Navbar.Collapse id="responsive-navbar-nav" className="join-login-wrapper">
+							<Nav>
+								<Button href="http://square-enix-games.com" className="join-login-text">Join</Button>
+								<Button href="http://square-enix-games.com" className="join-login-text">Log In</Button>
+								<Image className="join-login-background" src={LoginBackground}/>
+							</Nav>
+						</Navbar.Collapse>
+					</Navbar>
+				</Container>
+			);
+		}
+	}
+	
+	export default Header;
+	

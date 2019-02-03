@@ -1,44 +1,43 @@
-.Header{
-    height: 86px;
-    background-color: black;
+.header{
+	height: 86px;
+	background-color: black;
 }
 
-.JoinLoginContainer{
-    justify-content: flex-end;
-    color: black !important;
-    display: inline-block;
+.join-login-wrapper{
+	justify-content: flex-end;
+	color: black !important;
 }
 
-.LoginBackground{
-    position: relative;
-    top: -5px;
-    right: -80px;
-    z-index: -1;
+.join-login-background{
+	position: relative;
+	top: -5px;
+	right: -80px;
+	z-index: -1;
 }
 
-.JoinLoginText{
-    position: relative;
-    padding: 30px !important;
-    right: -400px;
-    height: 80px;
-    width: 120px;
-    color: black !important;
-    text-transform: uppercase;
-    background-color: white !important;
-    border: 0 !important;
-    outline: none !important;
-    box-shadow: none !important;
+.join-login-text{
+	position: relative;
+	padding: 30px !important;
+	right: -400px;
+	height: 80px;
+	width: 115px;
+	color: black !important;
+	text-transform: uppercase;
+	background-color: white !important;
+	border: 0 !important;
+	outline: none !important;
+	box-shadow: none !important;
 }
 
 @media (max-width:991px){
-    .LoginBackground{
-        display:none;
-    }
-    .JoinLoginText{
-        right: 0px;
-        width: 100%;
-    }
-    .BrandLogo{
-        width: 200px;
-    }
+	.join-login-background{
+		display:none;
+	}
+	.join-login-text{
+		right: 0px;
+		width: 100%;
+	}
+	.brand-logo{
+		width: 200px;
+	}
 }
