@@ -4,14 +4,14 @@
 	color: white;
 	padding-top: 150px;
 	overflow: hidden;
-  }
-  
+	}
+	
 .main-logo-wrapper {
 	padding-bottom: 150px;
 }
 
 .main-logo {
-	height: 7vmax;
+	max-width: 90%;
 }
 
 .bar {

@@ -4,15 +4,15 @@ import Body from './JS/Body.js'
 import Footer from './JS/Footer.js'
 
 class App extends Component {
-  render() {
+	render() {
 	return (
-	  <div className="App">
+		<div className="App">
 		<Header/>
 		<Body/>
 		<Footer/>
-	  </div>
+		</div>
 	);
-  }
+	}
 }
 
 export default App;

@@ -1,23 +1,23 @@
-  .double-colon{
+	.double-colon{
 	font-size: 80px;
 	font-weight: bold;
-  }
+	}
 
-  .countdown-element{
+	.countdown-element{
 	display: inherit;
 	margin: 0 5px;
 	letter-spacing: 4px;
-  }
+	}
 
-  .numbers{
-	  font-size: 80px;
-  }
+	.numbers{
+	font-size: 80px;
+	}
 
-  @media (max-width:991px){
+	@media (max-width:991px){
 	.double-colon{
 		display:none;
 	}
 	.numbers{
-	  font-size: 40px;
+		font-size: 40px;
 	}
 }

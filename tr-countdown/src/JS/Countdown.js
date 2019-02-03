@@ -114,7 +114,7 @@ class Countdown extends Component {
 							{this.state.sec <= 1 ? 'SEC' : 'SECS'}
 						</span>
 					</Col>
-					</Row>      
+					</Row>			
 				</Container>
 		);
 	}

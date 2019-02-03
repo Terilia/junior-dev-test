@@ -17,12 +17,12 @@ import ButtonTeaser from '../PIC/teaserbutton.png'
 class Body extends Component {
 	render() {
 	const revealDate = new Date("March 15 2019 17:00:00 GMT +1").getTime()
-	  return (
+		return (
 		<Container className="body" fluid>
 				<Row className="main-logo-wrapper">
 				<Col xs ><Image className="main-logo" src={MainLogo}/></Col>
 			</Row>
-				<Countdowndisplay  date={revealDate}/>
+				<Countdowndisplay	date={revealDate}/>
 				<Image className="bar" src={Bar} fluid/>
 			<Row className="reveal">
 				<Col xs><span >Reveal Event March 15th</span></Col>
@@ -44,9 +44,9 @@ class Body extends Component {
 				<Col md={1} className="social buttons"> <a href="https://www.instagram.com/tombraider/"><Image src={Instagram}/></a></Col>
 			</Row>
 		</Container>
-	  );
+		);
 	}
-  }
-  
-  export default Body;
-  
+	}
+	
+	export default Body;
+	
