@@ -29,7 +29,9 @@ Your app is ready to be deployed!
 
 You may serve it with a static server:
 
-  serve -s build
+```
+serve -s build
+```
 
 ## Note
 
